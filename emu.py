@@ -252,7 +252,7 @@ PAGE = """<!doctype html>
 <html>
 <head>
 <meta charset="utf-8">
-<title>nanocode plays pokemon</title>
+<title>nanocode plays DS</title>
 <style>
   body { font-family: monospace; background: #111; color: #ddd; display: flex; gap: 24px; padding: 16px; margin: 0; align-items: flex-start; }
   #screen { height: var(--h); aspect-ratio: 256 / 384; image-rendering: pixelated; background: #000;

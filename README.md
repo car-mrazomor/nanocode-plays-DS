@@ -1,4 +1,4 @@
-# nanocode plays pokemon
+# nanocode plays DS
 
 An AI agent (nanocode) plays Nintendo DS games, starting with Pokémon White.
 It sees only screenshots and presses only buttons. It keeps its own notes and makes checkpoints before risky moves.
@@ -37,8 +37,8 @@ Buttons: `a b x y l r start select up down left right`.
 ## Setup
 
 ```sh
-git clone --recursive https://github.com/car-mrazomor/nanocode-plays-pokemon
-cd nanocode-plays-pokemon
+git clone --recursive https://github.com/car-mrazomor/nanocode-plays-DS
+cd nanocode-plays-DS
 
 # build the emulator library (needs CMake and a C++17 compiler, see src/README.md)
 cmake -S src -B src/build -G Ninja && cmake --build src/build
