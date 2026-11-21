@@ -1,0 +1,27 @@
+# ROMs are copyrighted
+roms/
+
+# emulator save states / run output
+runs/
+*.state
+*.ram
+*.rtc
+
+# toy build artifacts (toy.gb is kept so tests run without rgbds)
+toy/*.o
+
+# python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# secrets
+.env
+
+# nanocode sessions
+.nanocode/sessions/
+
+# macOS
+.DS_Store

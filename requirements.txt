@@ -1,0 +1,6 @@
+flask
+numpy
+pillow
+python-dotenv
+openai
+pytest
